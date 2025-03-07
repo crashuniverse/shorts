@@ -1,5 +1,6 @@
 <script>
   import leelaAndHerGoat from "../images/leela-and-her-goat.webp";
+  import theLittleRedCar from "../images/the-little-red-car.webp";
 </script>
 
 <h1>Shorts</h1>
@@ -14,6 +15,15 @@
       </a>
     </p>
   </li>
+  <li>
+    <a href="/the-little-red-car">The Little Red Car</a>
+    <br/>
+    <p>This is a little red car. The car is a toy. A little girl sees the car. The girl is happy...
+      <a href="/the-little-red-car" class="image-link">
+        <img src={theLittleRedCar} alt="The Little Red Car" class="story-img" />
+      </a>
+    </p>
+  </li>
 </ul>
 
 <style>
@@ -24,7 +34,7 @@
       transition: filter 0.5s;
   }
 
-  a.image-link:hover {
+  a:hover, a.image-link:hover {
     border-bottom: none;
   }
 
@@ -38,6 +48,7 @@
   }
 
   a {
+    display: block;
     font-size: 1.4em;
   }
 </style>
