@@ -43,7 +43,7 @@
 
 <p>
   The girl goes to sleep.<br />
-  He dreams of the little red car.<br />
+  She dreams of the little red car.<br />
 </p>
 
 <p>
